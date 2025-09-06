@@ -1,5 +1,58 @@
-.heading {
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: mediumseagreen;
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  color: salmon;
+}
+
+#inputTugas {
+  padding: 10px;
+  width: 75%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.selesai {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li span {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
 }
